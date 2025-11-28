@@ -4,7 +4,7 @@ sidebar_label: Ramlethal
 sidebar_position: "1"
 tags: []
 ---
-
+1.6
 
 OKfdshgd
 
@@ -115,12 +115,10 @@ W = 牆
     
     ---
     
-    ### Kazunoko
+    ### Kaz
     
     - JK > JDC> JK > JD > Dash >立K > 214P x3 \ 6H > 236H >236S >WB
     
-    ```
-      [【Guilty Gear Strive】ラムレザルの実戦向けコンボ集 中距離戦から大ダメージを奪おう!!00.03.17.912_00.03.38.926.mp4](<https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1b4b9c4-0824-4297-bbfd-f59944571e40/%E3%80%90Guilty_Gear_Strive%E3%80%91%E3%83%A9%E3%83%A0%E3%83%AC%E3%82%B6%E3%83%AB%E3%81%AE%E5%AE%9F%E6%88%A6%E5%90%91%E3%81%91%E3%82%B3%E3%83%B3%E3%83%9C%E9%9B%86_%E4%B8%AD%E8%B7%9D%E9%9B%A2%E6%88%A6%E3%81%8B%E3%82%89%E5%A4%A7%E3%83%80%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E5%A5%AA%E3%81%8A%E3%81%86!!00.03.17.912_00.03.38.926.mp4>)
     ```
     
 - Dust

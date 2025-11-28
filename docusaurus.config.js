@@ -46,8 +46,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',   // 👈 加入這一行 (把 Wiki 搬到根目錄)
+          routeBasePath: '/',   //   Wiki 搬到根目錄
           sidebarPath: './sidebars.js',
+          sidebarCollapsed: false, // ，false 「不折疊」
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -107,7 +108,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
                 label: 'Wiki',
@@ -119,21 +120,21 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'a',
+                to: '/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'b',
+                to: '/',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'c',
+                to: '/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Blu J',
             items: [
               {
                 label: 'Blog',
@@ -141,12 +142,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Bluz J. All rights reserved.`,
       },
       prism: {
         theme: prismThemes.github,
