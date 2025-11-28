@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "63f24d4bec8af295",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c43e0fdf868c6dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b271c6145619791",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/03-Blog/note/2025/11-28.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "11-28"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d7a14ab7f82daf8",
+    "type": "split",
+    "children": [
+      {
+        "id": "21e2e8507a31dc2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db3c88f73da9b98c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "91b4d1af2c7c0d60",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "29ac05fc84253b2c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c5e41f8d71707205",
+    "type": "split",
+    "children": [
+      {
+        "id": "56ea6c4c9371dca3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22d89d7abd11e45a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向連結"
+            }
+          },
+          {
+            "id": "4253545ac83c17ab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "對外連結"
+            }
+          },
+          {
+            "id": "124255587d0c7588",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "3a4c06ddb1fe4348",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          },
+          {
+            "id": "549bd297207b425f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大綱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false
+    }
+  },
+  "active": "8b271c6145619791",
+  "lastOpenFiles": [
+    "TempDocs/New Doc.md",
+    "docs/03-Blog/note/2025/11-28.md",
+    "docs/01-Game/01-Steam/01-Ninja Gaiden 2/020-技表/龍劍.md",
+    "docs/03-Blog/note/2025",
+    "docs/03-Blog/note",
+    "docs/01-Game/01-Steam/01-Ninja Gaiden 2/010-ニンジャ.md",
+    "docs/01-Game/01-Steam/01-Ninja Gaiden 2/020-技表",
+    "docs/01-Game/01-Steam/01-Ninja Gaiden 2/心得.md",
+    "docs/01-Game/01-Steam/01-Ninja Gaiden 2/招式表.md",
+    "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/0010-Ramlethal.md",
+    "docs/02-IT/01-wiki/NodeJS VS OB.md",
+    "static/img/jstar.png",
+    "src/pages/index.js.bak",
+    "docs/02-IT/01-wiki",
+    "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/ram-01.png",
+    "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/ra.png",
+    "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/ram-02.png",
+    "static/img/logo.svg",
+    "static/img/Pasted image 20251128191823.png",
+    "Pasted image 20251128191432.png",
+    "2025-11-28.md",
+    "未命名 1.md",
+    "未命名.md",
+    "TempDocs/temp.md",
+    "TempDocs",
+    "Temp/temp.md",
+    "Temp",
+    "docs/Temp/temp.md",
+    "docs/Temp",
+    "docs/新增資料夾",
+    "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/0010-ラムレザル.md",
+    "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters",
+    "blog/2025-11-28-first-post.md",
+    "blog/01-Game/01-Steam/01-Ninja Gaiden 2/招式表.md",
+    "blog/01-Game/01-Steam/01-Ninja Gaiden 2/心得.md",
+    "README.md",
+    "未命名.canvas"
+  ]
+}

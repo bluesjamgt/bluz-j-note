@@ -1,0 +1,12 @@
+{
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "node_modules",
+    ".docusaurus",
+    "build"
+  ],
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
+}
