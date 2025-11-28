@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/010-Game/030-Nintendo/010-Splatoon.md",
+                "file": "docs/030-Blog/Book/白石一文/一瞬の光.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "010-Splatoon"
+              "title": "一瞬の光"
             }
           }
         ]
@@ -182,9 +182,12 @@
   },
   "active": "69b6684cce0efc68",
   "lastOpenFiles": [
+    "docs/010-Game/030-Nintendo/010-Splatoon.md",
+    "docs/030-Blog/Book/白石一文/一瞬の光.md",
+    "docs/030-Blog/Book/白石一文",
+    "docs/030-Blog/Book",
     "docs/010-Game/030-Nintendo/spl100-2.png",
     "docs/010-Game/030-Nintendo/spl100-1.png",
-    "docs/010-Game/030-Nintendo/010-Splatoon.md",
     "docs/010-Game/030-Nintendo/010-Splattoon.md",
     "blog/2025-11-28-first-post.md",
     "docs/About",
@@ -216,8 +219,6 @@
     "Temp/temp.md",
     "Temp",
     "docs/Temp/temp.md",
-    "docs/Temp",
-    "docs/新增資料夾",
     "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/0010-ラムレザル.md",
     "blog/01-Game/01-Steam/01-Ninja Gaiden 2/招式表.md",
     "blog/01-Game/01-Steam/01-Ninja Gaiden 2/心得.md",
