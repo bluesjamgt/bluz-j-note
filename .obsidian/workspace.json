@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/030-Blog/Book/白石一文/一瞬の光.md",
+                "file": "docs/030-Blog/Book/白石一文/僕のなかの壊れていない部分.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "一瞬の光"
+              "title": "僕のなかの壊れていない部分"
             }
           }
         ]
@@ -182,8 +182,16 @@
   },
   "active": "69b6684cce0efc68",
   "lastOpenFiles": [
-    "docs/010-Game/030-Nintendo/010-Splatoon.md",
     "docs/030-Blog/Book/白石一文/一瞬の光.md",
+    "docs/030-Blog/Book/太宰治/人間失格.md",
+    "docs/030-Blog/Book/白石一文/僕のなかの壊れていない部分.md",
+    "docs/030-Blog/Book/太宰治",
+    "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/020-技表/龍劍.md",
+    "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/心得.md",
+    "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/020-技表",
+    "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/010-ニンジャ.md",
+    "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black",
+    "docs/010-Game/030-Nintendo/010-Splatoon.md",
     "docs/030-Blog/Book/白石一文",
     "docs/030-Blog/Book",
     "docs/010-Game/030-Nintendo/spl100-2.png",
@@ -206,7 +214,6 @@
     "docs/01-Game/01-Steam/01-Ninja Gaiden 2/招式表.md",
     "static/img/jstar.png",
     "src/pages/index.js.bak",
-    "docs/02-IT/01-wiki",
     "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/ram-02.png",
     "static/img/logo.svg",
     "static/img/Pasted image 20251128191823.png",
@@ -215,14 +222,11 @@
     "未命名 1.md",
     "未命名.md",
     "TempDocs/temp.md",
-    "TempDocs",
     "Temp/temp.md",
-    "Temp",
     "docs/Temp/temp.md",
     "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/0010-ラムレザル.md",
     "blog/01-Game/01-Steam/01-Ninja Gaiden 2/招式表.md",
     "blog/01-Game/01-Steam/01-Ninja Gaiden 2/心得.md",
-    "README.md",
     "未命名.canvas"
   ]
 }
