@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/010-Game/030-Nintendo/010-Splattoon.md",
+                "file": "docs/010-Game/030-Nintendo/010-Splatoon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "010-Splattoon"
+              "title": "010-Splatoon"
             }
           }
         ]
@@ -184,6 +184,8 @@
   "lastOpenFiles": [
     "docs/010-Game/030-Nintendo/spl100-2.png",
     "docs/010-Game/030-Nintendo/spl100-1.png",
+    "docs/010-Game/030-Nintendo/010-Splatoon.md",
+    "docs/010-Game/030-Nintendo/010-Splattoon.md",
     "blog/2025-11-28-first-post.md",
     "docs/About",
     "docs/02-IT/01-wiki/NodeJS VS OB.md",
