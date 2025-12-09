@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/020-IT/01-AI Note/ComfyUI/版本升級除錯 & SageAttention修復.md",
+                "file": "docs/020-IT/01-AI Note/ComfyUI/常用環境檢測指令集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "版本升級除錯 & SageAttention修復"
+              "title": "常用環境檢測指令集"
             }
           }
         ]
@@ -184,8 +184,8 @@
   },
   "active": "69b6684cce0efc68",
   "lastOpenFiles": [
-    "docs/020-IT/01-AI Note/ComfyUI/常用環境檢測指令集 (Version Check Cheat Sheet).md",
     "docs/020-IT/01-AI Note/ComfyUI/版本升級除錯 & SageAttention修復.md",
+    "docs/020-IT/01-AI Note/ComfyUI/常用環境檢測指令集.md",
     "docs/020-IT/01-AI Note/ComfyUI/errmsg1.png",
     "docs/020-IT/01-AI Note/ComfyUI/Pasted image 20251210061011.png",
     "docs/020-IT/01-AI Note/NodeJS VS OB.md",
