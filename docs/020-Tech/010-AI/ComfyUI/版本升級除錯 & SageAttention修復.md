@@ -39,7 +39,7 @@
 
 如果環境報錯 (DLL load failed) 或核心損壞，請依序執行以下三步。
 
-### 步驟一：清理戰場 (完全卸載)
+### 步驟一：完全卸載
 
 > 清除所有可能衝突的核心庫與相關依賴，確保安裝環境純淨。
 > 
@@ -48,7 +48,7 @@
 .\\python_embeded\\python.exe -m pip uninstall -y sageattention torch torchvision torchaudio torchsde
 ```
 
-### 步驟二：重建地基 (安裝穩定版核心)
+### 步驟二：重建核心
 
 > 關鍵指令： 強制指定版本 2.8.0 與索引 URL cu128。
 > 
