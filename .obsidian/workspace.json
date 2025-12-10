@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/010-Game/060-FTG/010/KOF95/招式表.md",
-                "mode": "source",
+                "file": "docs/010-Game/060-FTG/010-Kof/005-KOF95/招式表.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -182,13 +182,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69b6684cce0efc68",
+  "active": "db3c88f73da9b98c",
   "lastOpenFiles": [
     "docs/020-Tech/020-Dev/Python/python.md",
-    "docs/010-Game/060-FTG/010/KOF95/招式表.md",
+    "docs/010-Game/060-FTG/010-Kof/005-KOF95/招式表.md",
     "docs/010-Game/060-FTG/010/KOF95/招式表",
-    "docs/010-Game/060-FTG/010/KOF95",
-    "docs/010-Game/060-FTG/010",
+    "docs/010-Game/060-FTG/010-Kof/005-KOF95",
+    "docs/010-Game/060-FTG/010-Kof",
     "docs/010-Game/060-FTG",
     "docs/020-Tech/020-Dev/JavaScript/java.md",
     "docs/020-Tech/010-AI/ComfyUI/Node/KJ.md",
@@ -214,7 +214,7 @@
     "docs/005-About/Update.md",
     "docs/030-Blog/Diary/2025/11-29.md",
     "docs/030-Blog/11-29.md",
-    "docs/010-Game/010-Steam/020-GUILTY GEAR -STRIVE-/010-Chracters/0010-Ramlethal.md",
+    "docs/010-Game/060-FTG/020-GUILTY GEAR -STRIVE-/010-Chracters/0010-Ramlethal.md",
     "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/心得.md",
     "docs/010-Game/030-Nintendo/010-Splatoon.md",
     "docs/030-Blog/Book/白石一文/僕のなかの壊れていない部分.md",
