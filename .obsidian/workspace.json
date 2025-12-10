@@ -184,6 +184,8 @@
   },
   "active": "db3c88f73da9b98c",
   "lastOpenFiles": [
+    "docs/020-Tech/020-Dev/Python/py",
+    "docs/020-Tech/020-Dev/JavaScript/java",
     "docs/020-Tech/020-Dev/JavaScript/ba-rank-3.0.js",
     "build/blog/atom.xml",
     "build/blog/rss.xml",
@@ -193,8 +195,6 @@
     "build/blog/rss.xsl",
     "build/sitemap.xml",
     "build/blog/archive/index.html",
-    "build/blog/archive",
-    "build/Tech/AI/ComfyUI/Node/KJ/index.html",
     "build/assets/images/spl100-2-08079793fb44facc7b8d26b33f6818d7.png",
     "build/assets/images/spl100-1-46161c2cf5b1bc52d2ef4c07cd9e7091.png",
     "build/assets/images/ram-02-416156fbf3d2d3b2065523592fe2ea35.png",
