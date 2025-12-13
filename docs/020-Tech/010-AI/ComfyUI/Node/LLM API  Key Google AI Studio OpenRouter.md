@@ -1,4 +1,4 @@
-# 📝 2025-12-11｜LLM API 串接與開發日誌 (ComfyUI / RAG)
+#  2025-12-11｜LLM API 串接與開發日誌 (ComfyUI / RAG)
 
 ### 1. 核心資源申請流程
 
