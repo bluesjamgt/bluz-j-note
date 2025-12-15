@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/020-Tech/020-Dev/VPN/VPN VS.md",
+                "file": "docs/030-Blog/Diary/2025/11-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VPN VS"
+              "title": "11-28"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "69b6684cce0efc68",
   "lastOpenFiles": [
-    "docs/020-Tech/010-AI/ComfyUI/Node/LLM API  Key Google AI Studio OpenRouter.md",
+    "docs/030-Blog/Diary/2025/11-29.md",
+    "docs/030-Blog/Diary/2025/11-28.md",
     "docs/020-Tech/020-Dev/VPN/VPN VS.md",
+    "docs/020-Tech/010-AI/ComfyUI/Node/LLM API  Key Google AI Studio OpenRouter.md",
     "docs/020-Tech/020-Dev/VPN",
     "docs/010-Game/060-FTG/010-Kof/005-KOF95/招式表.md",
     "docs/020-Tech/020-Dev/Python/python.md",
@@ -213,7 +215,6 @@
     "docs/020-Tech/010-AI/ComfyUI/版本升級除錯 & SageAttention修復.md",
     "docs/020-Tech/010-AI/NodeJS VS OB.md",
     "docs/005-About/Update.md",
-    "docs/030-Blog/Diary/2025/11-29.md",
     "docs/030-Blog/11-29.md",
     "docs/010-Game/060-FTG/020-GUILTY GEAR -STRIVE-/010-Chracters/0010-Ramlethal.md",
     "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/心得.md",
@@ -228,7 +229,6 @@
     "docs/02-IT/01-wiki/NodeJS VS OB.md",
     "docs/01-Game/01-Steam/01-Ninja Gaiden 2/010-ニンジャ.md",
     "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/0010-Ramlethal.md",
-    "docs/03-Blog/note/2025/11-28.md",
     "未命名.canvas"
   ]
 }
