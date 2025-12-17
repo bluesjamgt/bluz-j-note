@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/030-Blog/Diary/2025/11-28.md",
+                "file": "docs/020-Tech/020-Dev/Docker/Docker Ollama Open WebUI 更新筆記.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-28"
+              "title": "Docker Ollama Open WebUI 更新筆記"
             }
           }
         ]
@@ -183,8 +183,12 @@
   },
   "active": "69b6684cce0efc68",
   "lastOpenFiles": [
-    "docs/030-Blog/Diary/2025/11-29.md",
     "docs/030-Blog/Diary/2025/11-28.md",
+    "docs/020-Tech/020-Dev/Docker/Docker Ollama Open WebUI 更新筆記.md",
+    "docs/020-Tech/020-Dev/Docker",
+    "docs/020-Tech/010-AI/LLM/未命名",
+    "docs/020-Tech/010-AI/LLM",
+    "docs/030-Blog/Diary/2025/11-29.md",
     "docs/020-Tech/020-Dev/VPN/VPN VS.md",
     "docs/020-Tech/010-AI/ComfyUI/Node/LLM API  Key Google AI Studio OpenRouter.md",
     "docs/020-Tech/020-Dev/VPN",
@@ -198,9 +202,6 @@
     "docs/020-Tech/010-AI/ComfyUI/Node/KJ.md",
     "docs/020-Tech/020-Dev/Python/py",
     "docs/020-Tech/020-Dev/JavaScript/java",
-    "docs/020-Tech/020-Dev/JavaScript/ba-rank-3.0.js",
-    "build/blog/atom.xml",
-    "build/blog/rss.xml",
     "build/assets/images/spl100-2-08079793fb44facc7b8d26b33f6818d7.png",
     "build/assets/images/spl100-1-46161c2cf5b1bc52d2ef4c07cd9e7091.png",
     "build/assets/images/ram-02-416156fbf3d2d3b2065523592fe2ea35.png",
@@ -228,7 +229,6 @@
     "blog/2025-11-28-first-post.md",
     "docs/02-IT/01-wiki/NodeJS VS OB.md",
     "docs/01-Game/01-Steam/01-Ninja Gaiden 2/010-ニンジャ.md",
-    "docs/01-Game/01-Steam/02-GUILTY GEAR -STRIVE-/01-Chracters/0010-Ramlethal.md",
     "未命名.canvas"
   ]
 }
