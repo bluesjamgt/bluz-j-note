@@ -28,3 +28,23 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* 針對內容容器的左右留白優化 */
+.container {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+/* 針對窄螢幕（手機或縮小視窗）的特別調整 */
+@media (max-width: 996px) {
+  /* 讓 Markdown 內容區塊在窄螢幕時不會死貼著左邊界 */
+  .theme-doc-markdown,
+  .markdown {
+    padding: 0 1.5rem !important; /* 給予文字左右各 1.5rem 的呼吸空間 */
+  }
+
+  /* 如果你的側邊欄消失後，內容顯得太寬，可以限制最大寬度並置中 */
+  .col--9 {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
