@@ -4,7 +4,9 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* ============================================================
+   🎨 1. 基礎色調設定 (Base Variables) - 保持原本設定
+   ============================================================ */
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -15,9 +17,14 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* 🔧 側邊欄全域寬度設定 (這裡直接加寬，避免斷行) */
+  --doc-sidebar-width: 300px !important; 
+  
+  /* 🔧 側邊欄選單的垂直間距微調 */
+  --ifm-menu-link-padding-vertical: 6px;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -28,23 +35,95 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-/* 針對內容容器的左右留白優化 */
+
+/* ============================================================
+   📄 2. 內容版面優化 (Content Layout) - 呼吸感設定
+   ============================================================ */
+
+/* 全域容器間距 */
 .container {
   padding-left: 2rem !important;
   padding-right: 2rem !important;
 }
 
-/* 針對窄螢幕（手機或縮小視窗）的特別調整 */
-@media (max-width: 996px) {
-  /* 讓 Markdown 內容區塊在窄螢幕時不會死貼著左邊界 */
-  .theme-doc-markdown,
-  .markdown {
-    padding: 0 1.5rem !important; /* 給予文字左右各 1.5rem 的呼吸空間 */
-  }
+/* 重塑文件區塊：讓標題與內文一起離開左邊界 */
+.docItemContainer {
+  padding-left: 4rem !important;  
+  padding-right: 4rem !important; 
+  transition: padding 0.3s ease;
+}
 
-  /* 如果你的側邊欄消失後，內容顯得太寬，可以限制最大寬度並置中 */
-  .col--9 {
-    max-width: 100%;
-    margin: 0 auto;
+/* 限制閱讀寬度與置中 */
+.theme-doc-markdown {
+  max-width: 960px !important;
+  margin: 0 auto !important;
+}
+
+/* 麵包屑導覽對齊 */
+.breadcrumbs {
+  margin-bottom: 2rem !important;
+  padding-left: 0.5rem;
+}
+
+/* 手機版 (RWD) 調整 */
+@media (max-width: 996px) {
+  .docItemContainer {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
+  .theme-doc-markdown, .markdown {
+    padding: 0 0.5rem !important;
+  }
+}
+
+/* ============================================================
+   🦖 3. 側邊欄風格重塑 (Sidebar Evolution) - React Navigation 風格
+   ============================================================ */
+
+/* 🎯 針對「大分類標題」 (Category Headers) 
+   邏輯：使用 > 選取器，只鎖定最上層的標題，不影響子連結
+*/
+.menu__list-item--category > .menu__link {
+  /* [字體重塑] 模仿 React Navigation 的核心 */
+  font-weight: 800 !important;      /* 加粗 */
+  text-transform: uppercase;        /* 轉大寫 (關鍵風格來源) */
+  font-size: 0.8rem !important;     /* 稍微縮小，配合粗體更精緻 */
+  letter-spacing: 0.1em;            /* 字距撐開，增加通透感 */
+  
+  /* [顏色] 使用深色，區隔連結 */
+  color: var(--ifm-color-emphasis-700) !important; 
+  
+  /* [排版] 增加區塊間距 */
+  margin-top: 1.5rem !important;    
+  margin-bottom: 0.25rem !important;
+  
+  /* [清潔] 移除之前的左側邊框線，改走純文字風格 */
+  border-left: none !important; 
+}
+
+/* 標題懸停效果：保持乾淨，只變色 */
+.menu__list-item--category > .menu__link:hover {
+  background-color: transparent !important;
+  color: var(--ifm-color-primary) !important;
+}
+
+/* 🔗 針對「一般連結」 (Normal Links)
+   邏輯：保持簡單清爽 
+*/
+.menu__link {
+  font-size: 0.9rem !important; 
+  line-height: 1.5;
+  border-radius: 4px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* ✨ 當前選中項目的效果 (Active State)
+   邏輯：左側光條提示 (這次只加在選中的項目上，而非標題)
+*/
+.menu__link--active {
+  background-color: rgba(46, 133, 85, 0.1) !important;
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600;
+  border-left: 4px solid var(--ifm-color-primary); /* 在左側加強提示 */
+  border-radius: 0 4px 4px 0;
 }
