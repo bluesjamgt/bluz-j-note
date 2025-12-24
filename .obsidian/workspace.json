@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/030-Blog/Diary/2025/12-23.md",
+                "file": "docs/030-Blog/Diary/2025/12-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12-23"
+              "title": "12-24"
             }
           }
         ]
@@ -183,16 +183,17 @@
   },
   "active": "69b6684cce0efc68",
   "lastOpenFiles": [
-    "docs/005-About/Update.md",
     "docs/030-Blog/Diary/2025/12-23.md",
+    "docs/030-Blog/Diary/2025/12-24.md",
+    "docs/030-Blog/Diary/2025/12-19.md",
+    "docs/005-About/Update.md",
+    "blog/2025-11-28-first-post.md",
     "docs/020-Tech/010-AI/ComfyUI/ComfyUI 環境升級錯誤修復紀錄 & SageAttention修復.md",
     "docs/020-Tech/010-AI/ComfyUI/Node/LLM API  Key Google AI Studio OpenRouter.md",
     "docs/020-Tech/010-AI/ComfyUI/常用環境檢測指令集.md",
     "docs/020-Tech/010-AI/ComfyUI/Node/KJ.md",
     "docs/020-Tech/010-AI/NodeJS VS OB.md",
     "docs/020-Tech/020-Dev/JavaScript/java.md",
-    "blog/2025-11-28-first-post.md",
-    "docs/030-Blog/Diary/2025/12-19.md",
     "docs/020-Tech/020-Dev/Docker/Docker Ollama Open WebUI 更新筆記.md",
     "docs/030-Blog/Diary/2025/11-28.md",
     "docs/020-Tech/020-Dev/Docker",
@@ -228,7 +229,6 @@
     "docs/030-Blog/Book/太宰治/人間失格.md",
     "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/020-技表/龍劍.md",
     "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/010-ニンジャ.md",
-    "docs/010-Game/030-Nintendo/010-Splattoon.md",
     "未命名.canvas"
   ]
 }
