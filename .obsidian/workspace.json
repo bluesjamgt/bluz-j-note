@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/030-Blog/Diary/2025/12-24.md",
+                "file": "docs/020-Tech/020-Dev/WinOS/Icaros MajorGeeks Thumbnail fixed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12-24"
+              "title": "Icaros MajorGeeks Thumbnail fixed"
             }
           }
         ]
@@ -183,8 +183,11 @@
   },
   "active": "69b6684cce0efc68",
   "lastOpenFiles": [
-    "docs/030-Blog/Diary/2025/12-23.md",
     "docs/030-Blog/Diary/2025/12-24.md",
+    "docs/020-Tech/020-Dev/WinOS/Icaros MajorGeeks Thumbnail fixed.md",
+    "docs/020-Tech/020-Dev/WinOS",
+    "docs/020-Tech/020-Dev/WinOS.md",
+    "docs/030-Blog/Diary/2025/12-23.md",
     "docs/030-Blog/Diary/2025/12-19.md",
     "docs/005-About/Update.md",
     "blog/2025-11-28-first-post.md",
@@ -209,7 +212,6 @@
     "docs/010-Game/060-FTG/010-Kof",
     "docs/010-Game/060-FTG",
     "docs/020-Tech/020-Dev/Python/py",
-    "docs/020-Tech/020-Dev/JavaScript/java",
     "build/assets/images/spl100-2-08079793fb44facc7b8d26b33f6818d7.png",
     "build/assets/images/spl100-1-46161c2cf5b1bc52d2ef4c07cd9e7091.png",
     "build/assets/images/ram-02-416156fbf3d2d3b2065523592fe2ea35.png",
@@ -227,8 +229,6 @@
     "docs/030-Blog/Book/白石一文/僕のなかの壊れていない部分.md",
     "docs/030-Blog/Book/白石一文/一瞬の光.md",
     "docs/030-Blog/Book/太宰治/人間失格.md",
-    "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/020-技表/龍劍.md",
-    "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/010-ニンジャ.md",
     "未命名.canvas"
   ]
 }
