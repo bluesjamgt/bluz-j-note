@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/030-Blog/Diary/2025/11-28 好冷.md",
+                "file": "docs/030-Blog/Diary/2025/12-27 跑者的憂鬱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-28 好冷"
+              "title": "12-27 跑者的憂鬱"
             }
           }
         ]
@@ -183,11 +183,13 @@
   },
   "active": "69b6684cce0efc68",
   "lastOpenFiles": [
+    "docs/030-Blog/Diary/2025/12-26 喜歡「享受」，討厭「求生」.md",
+    "docs/030-Blog/Diary/2025/12-27 跑者的憂鬱.md",
+    "docs/030-Blog/Diary/2025/12-24 關於跑步.md",
+    "docs/030-Blog/Diary/2025/12-23 不可能的三角.md",
+    "docs/030-Blog/Diary/2025/11-28 好冷.md",
     "docs/030-Blog/Diary/2025/11-29 開發.md",
     "docs/030-Blog/Diary/2025/12-19 runnersblue.com.md",
-    "docs/030-Blog/Diary/2025/12-23 不可能的三角.md",
-    "docs/030-Blog/Diary/2025/12-24 關於跑步.md",
-    "docs/030-Blog/Diary/2025/12-26 喜歡「享受」，討厭「求生」.md",
     "docs/020-Tech/020-Dev/WinOS/Icaros MajorGeeks Thumbnail fixed.md",
     "docs/020-Tech/020-Dev/WinOS",
     "docs/020-Tech/020-Dev/WinOS.md",
@@ -200,7 +202,6 @@
     "docs/020-Tech/010-AI/NodeJS VS OB.md",
     "docs/020-Tech/020-Dev/JavaScript/java.md",
     "docs/020-Tech/020-Dev/Docker/Docker Ollama Open WebUI 更新筆記.md",
-    "docs/030-Blog/Diary/2025/11-28 好冷.md",
     "docs/020-Tech/020-Dev/Docker",
     "docs/020-Tech/010-AI/LLM/未命名",
     "docs/020-Tech/010-AI/LLM",
@@ -228,7 +229,6 @@
     "docs/010-Game/010-Steam/010-Ninja Gaiden 2 Black/心得.md",
     "docs/010-Game/030-Nintendo/010-Splatoon.md",
     "docs/030-Blog/Book/白石一文/僕のなかの壊れていない部分.md",
-    "docs/030-Blog/Book/白石一文/一瞬の光.md",
     "未命名.canvas"
   ]
 }
