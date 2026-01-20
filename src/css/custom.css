@@ -19,8 +19,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   /* 🔧 側邊欄全域寬度設定 (這裡直接加寬，避免斷行) */
-  --doc-sidebar-width: 300px !important; 
-  
+  --doc-sidebar-width: 300px !important;
+
   /* 🔧 側邊欄選單的垂直間距微調 */
   --ifm-menu-link-padding-vertical: 6px;
 }
@@ -48,8 +48,8 @@
 
 /* 重塑文件區塊：讓標題與內文一起離開左邊界 */
 .docItemContainer {
-  padding-left: 4rem !important;  
-  padding-right: 4rem !important; 
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
   transition: padding 0.3s ease;
 }
 
@@ -71,7 +71,9 @@
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
   }
-  .theme-doc-markdown, .markdown {
+
+  .theme-doc-markdown,
+  .markdown {
     padding: 0 0.5rem !important;
   }
 }
@@ -83,26 +85,30 @@
 /* 🎯 針對「大分類標題」 (Category Headers) 
    邏輯：使用 > 選取器，只鎖定最上層的標題，不影響子連結
 */
-.menu__list-item--category > .menu__link {
+.menu__list-item--category>.menu__link {
   /* [字體重塑] 模仿 React Navigation 的核心 */
-  font-weight: 800 !important;      /* 加粗 */
-  text-transform: uppercase;        /* 轉大寫 (關鍵風格來源) */
-  font-size: 0.8rem !important;     /* 稍微縮小，配合粗體更精緻 */
-  letter-spacing: 0.1em;            /* 字距撐開，增加通透感 */
-  
+  font-weight: 800 !important;
+  /* 加粗 */
+  text-transform: uppercase;
+  /* 轉大寫 (關鍵風格來源) */
+  font-size: 0.8rem !important;
+  /* 稍微縮小，配合粗體更精緻 */
+  letter-spacing: 0.1em;
+  /* 字距撐開，增加通透感 */
+
   /* [顏色] 使用深色，區隔連結 */
-  color: var(--ifm-color-emphasis-700) !important; 
-  
+  color: var(--ifm-color-emphasis-700) !important;
+
   /* [排版] 增加區塊間距 */
-  margin-top: 1.5rem !important;    
+  margin-top: 1.5rem !important;
   margin-bottom: 0.25rem !important;
-  
+
   /* [清潔] 移除之前的左側邊框線，改走純文字風格 */
-  border-left: none !important; 
+  border-left: none !important;
 }
 
 /* 標題懸停效果：保持乾淨，只變色 */
-.menu__list-item--category > .menu__link:hover {
+.menu__list-item--category>.menu__link:hover {
   background-color: transparent !important;
   color: var(--ifm-color-primary) !important;
 }
@@ -111,7 +117,7 @@
    邏輯：保持簡單清爽 
 */
 .menu__link {
-  font-size: 0.9rem !important; 
+  font-size: 0.9rem !important;
   line-height: 1.5;
   border-radius: 4px;
   color: var(--ifm-color-emphasis-700);
@@ -124,6 +130,133 @@
   background-color: rgba(46, 133, 85, 0.1) !important;
   color: var(--ifm-color-primary) !important;
   font-weight: 600;
-  border-left: 4px solid var(--ifm-color-primary); /* 在左側加強提示 */
+  border-left: 4px solid var(--ifm-color-primary);
+  /* 在左側加強提示 */
   border-radius: 0 4px 4px 0;
+}
+
+/* ============================================================
+   🦶 4. 自訂頁尾 (Custom Footer) - 仿個人網頁設計
+   ============================================================ */
+
+/* 頁尾容器：重設 Docusaurus 預設樣式 */
+.footer {
+  padding: 0 !important;
+  background-color: #111827 !important;
+  /* bg-gray-900 */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.footer__bottom {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 核心容器：控制內容寬度與 padding */
+.footer-custom-container {
+  max-width: 1152px;
+  /* max-w-6xl */
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  /* Further reduced padding */
+  color: white;
+  text-align: center;
+}
+
+/* 引用區塊 */
+.footer-quote-section {
+  display: none;
+  /* Ensure quote section doesn't take space if present */
+}
+
+.footer-quote {
+  font-family: 'Noto Serif TC', serif;
+  /* font-serif */
+  font-style: italic;
+  font-size: 1.5rem;
+  /* text-2xl */
+  color: #9ca3af;
+  /* text-gray-400 */
+  font-weight: 400;
+}
+
+/* 底部行：版權與 SVG 圖示 */
+.footer-bottom-row {
+  width: 100%;
+  /* Full width to allow right alignment to screen edge */
+  max-width: 100%;
+  /* Override 1152px limit */
+  margin: 0 auto;
+  padding: 0 2rem;
+  /* Give some breathing room from the edge */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* Align items to the right in column mode */
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+/* 桌機版樣式 */
+@media (min-width: 768px) {
+  .footer-bottom-row {
+    flex-direction: row;
+    /* md:flex-row */
+  }
+
+  /* 版權文字：桌機版在左 (order 1) */
+  .footer-copy-text {
+    order: 1;
+  }
+
+  /* 社群圖示：桌機版在右 (order 2) */
+  .footer-social-icons {
+    order: 2;
+  }
+}
+
+/* 社群圖示區塊 */
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  /* gap-5 */
+
+  /* 手機版：圖示在上方 (order 1) */
+  order: 1;
+}
+
+/* 版權文字 */
+.footer-copy-text {
+  /* 手機版：文字在下方 (order 2) */
+  order: 2;
+}
+
+/* 個別圖示連結 */
+.footer-social-link {
+  color: #6b7280;
+  /* text-gray-500 */
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-link:hover {
+  color: white;
+  /* hover:text-white */
+}
+
+/* 統一 SVG 尺寸 */
+.footer-social-link svg {
+  width: 1.25rem;
+  /* w-5 */
+  height: 1.25rem;
+  /* h-5 */
 }
