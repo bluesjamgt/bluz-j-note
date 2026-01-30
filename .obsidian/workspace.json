@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/030-Blog/Diary/2026/01-19.md",
+                "file": "docs/030-Blog/Diary/2026/01-30.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "01-19"
+              "title": "01-30"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/030-Blog/Diary/2026/01-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向連結"
+              "title": "01-30 的反向連結"
             }
           },
           {
@@ -162,7 +163,8 @@
               "title": "大綱"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -183,6 +185,8 @@
   },
   "active": "69b6684cce0efc68",
   "lastOpenFiles": [
+    "docs/030-Blog/Diary/2026/01-19.md",
+    "docs/030-Blog/Diary/2026/01-30.md",
     "build/index.html",
     "build/Game/FTG/Kof/KOF95/招式表/index.html",
     "build/Game/Steam/Ninja Gaiden 2 Black/技表/龍劍/index.html",
@@ -193,7 +197,6 @@
     "build/Game/FTG/Kof/KOF95/招式表",
     "build/Game/Mobile/Blue Archive/calculator/index.html",
     "build/Game/FTG/GUILTY GEAR -STRIVE-/Chracters/Ramlethal",
-    "build/Game/Steam/Ninja Gaiden 2 Black/技表",
     "build/assets/images/spl100-1-46161c2cf5b1bc52d2ef4c07cd9e7091.png",
     "build/assets/images/ram-02-416156fbf3d2d3b2065523592fe2ea35.png",
     "build/assets/images/ram-01-3f9f0b66b5f25f7b602dc2b61ee8858d.png",
@@ -206,7 +209,6 @@
     "build/img/undraw_docusaurus_mountain.svg",
     "docs/030-Blog/Diary/2026/01-20.md",
     "blog/2025-11-28-first-post.md",
-    "docs/030-Blog/Diary/2026/01-19.md",
     "docs/030-Blog/Diary/2025/12-27 跑者的憂鬱.md",
     "docs/030-Blog/Diary/2025/12-26 喜歡「享受」，討厭「求生」.md",
     "docs/030-Blog/Diary/2025/12-24 關於跑步.md",
